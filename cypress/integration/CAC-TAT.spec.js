@@ -121,6 +121,7 @@ describe('Central de Atendimento ao Cliente TAT', function() {
         .should('have.value', 'feedback')
     })
 
+    //#check
     it('marca cada tipo de atendimento', function() {
         cy.get('input[type="radio"]')
             .should('have.length', 3)
@@ -129,7 +130,8 @@ describe('Central de Atendimento ao Cliente TAT', function() {
                 cy.wrap($radio).should('be.checked')
             })
     })
-
+    
+    //#check 2
     it('marca ambos checkboxes, depois desmarca o último', function(){
         cy.get('input[type="checkbox"]')
         .check()
