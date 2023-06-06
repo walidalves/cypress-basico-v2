@@ -35,4 +35,5 @@ If you want to support this project, leave a ⭐.
 ___
 
 This project was created with 💚 by [Walmyr](https://walmyr.dev).
-Course made by student Walid Arnous Alves
+
+Course completed by student Walid Arnous Alves
